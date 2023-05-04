@@ -92,8 +92,9 @@ body{
     }
 
     .container{
-        width: 79%;
+        width: 83%;
         height: 100vh;
+        margin-left: 320px;
         background-color: cornflowerblue;
     }
     
@@ -133,7 +134,7 @@ body{
 /*MAIN*/
 
 .container{
-    width: 66%;
+    width: 70%;
     height: 100vh;
     background-color: cornflowerblue;
 }
@@ -197,6 +198,7 @@ body{
     .container{
         width: 82%;
         height: 100vh;
+        margin-left: 115px;
         background-color: cornflowerblue;
     }
 
