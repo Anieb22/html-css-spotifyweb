@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700;800&display=swap" rel="stylesheet">
@@ -13,17 +14,41 @@
 <body>
     <header>
         <div class="barra-laterale">
-            <div class="logo"></div>
-            <div class="menu"></div>
-            <div class="playlist">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam perspiciatis pariatur, laudantium iusto modi dolor delectus laborum. Laboriosam quis, delectus natus totam saepe fuga omnis asperiores temporibus autem reiciendis.
+            <div class="logo">
+                <img src="./img/logo.svg" alt="">
             </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <div style="display:inline-block">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </div>
+                    </li>
+                    <li>
+                        <div style="display:inline-block">
+                            <i class="fas fa-magnifying-glass"></i>
+                            Cerca
+                        </div>
+                    </li>
+                    <li>
+                        <div style="display:inline-block">
+                            <img src="./img/libreria.svg" alt="libreria">
+                            La tua libreria
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="playlist"></div>
             <div class="utente-download"></div>
         </div>
     </header>
+    <!--UPGRADE-->
     <main class="flex-end">
         <div class="barra-upgrade">
-            <div class="pulsante-upgrade"></div>
+            <div class="pulsante-upgrade">
+                EFFETTUA L'UPGRADE
+            </div>
         </div>
         <div class="container"></div>
     </main>
