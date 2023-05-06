@@ -89,6 +89,10 @@ body{
         margin: auto;
     }
 
+    .logo-small{
+        display:none;
+    }
+
     /*MENU*/
     .menu{
         width: 100%;
@@ -288,7 +292,6 @@ body{
     .row100{
         width: 300px;
         height: 50px;
-        background-color: chartreuse;
     }
 
     .col90{
@@ -320,19 +323,22 @@ body{
         right: -20px;
         width: 30%;
         height: 100%;
-        opacity: 0.7;
         font-size: 16pt;
-    }
-
-    .cartella-preferiti i:hover{
-        opacity: 1;
-        cursor: pointer;
     }
 
     .row300{
         width: 500px;
         height: 50px;
         background-color: coral;
+    }
+
+    .player i{
+        opacity: 0.7;
+    }
+
+    .player i:hover{
+        opacity: 1;
+        cursor: pointer;
     }
 
 /*TABLET*/
@@ -352,7 +358,6 @@ body{
 .row100{
     width: 270px;
     height: 50px;
-    background-color: chartreuse;
 }
 
 .row300{
@@ -397,7 +402,15 @@ body{
         height: 70px;
         position:fixed;
         bottom: 95px;
-        background-color: bisque;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo-small{
+        display: block;
+        transform: scale(0.5);
     }
 
     /*MAIN*/
@@ -426,7 +439,6 @@ body{
     .row100{
         width: 165px;
         height: 50px;
-        background-color: chartreuse;
     }
 
     .row300{
