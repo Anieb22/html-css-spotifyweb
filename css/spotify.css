@@ -304,7 +304,7 @@ body{
 
     .nome-album{
         width: 40%;
-        height: 50%;
+        height: 70%;
         position: relative;
         left: 10px;
     }
@@ -350,7 +350,7 @@ body{
 /*FOOTER*/
 
 .row100{
-    width: 200px;
+    width: 270px;
     height: 50px;
     background-color: chartreuse;
 }
@@ -361,12 +361,25 @@ body{
     background-color: coral;
 }
 
+.nome-album{
+    width: 50%;
+    height: 70%;
+    position: relative;
+    left: 10px;
+}
+
+.col90{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
 }
 
 
 /*MOBILE*/
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 916px) {
 
     /*HEADER*/
 
@@ -411,7 +424,7 @@ body{
     /*FOOTER*/
 
     .row100{
-        width: 150px;
+        width: 165px;
         height: 50px;
         background-color: chartreuse;
     }
@@ -422,5 +435,22 @@ body{
         background-color: coral;
     }
 
+    .nome-album{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        left: 10px;
+    }
+    
+    .col90{
+        width: 80%;
+        height: 67%;
+        margin: auto;
+    }
+    
+    .cartella-preferiti{
+        height: 80%;
+        flex-direction: column;
+    }
 
 }
