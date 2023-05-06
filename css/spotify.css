@@ -49,8 +49,14 @@ body{
     .testo-bianco{
         font-weight: 700;
         color: white;
-        position: fixed;
+    }
+
+    .padding-left{
         padding-left: 30px;
+    }
+
+    .testo-grigio{
+        color: grey;
     }
 
     .inline-block{
@@ -60,6 +66,10 @@ body{
     .relative7{
         position: relative;
         bottom: 7px;
+    }
+
+    .font5{
+        font-size: 7pt;
     }
     /*HEADER*/
 
@@ -116,6 +126,7 @@ body{
         margin-top: 30px;
         color: rgb(255, 255, 255);
         font-weight: 600;
+        overflow-y: auto;
     }
 
     .playlist ul li{
@@ -126,10 +137,6 @@ body{
     .playlist ul li:hover{
         cursor: pointer;
         opacity: 1.0;
-    }
-
-    .col-nuova-playlist:hover{
-        overflow-y: auto;
     }
 
     .col-nuova-playlist::-webkit-scrollbar{
@@ -179,7 +186,6 @@ body{
     .installa-app{
         display: flex;
         align-items: center;
-        padding-top: 10px;
         opacity: 0.7;
     }
 
@@ -245,9 +251,7 @@ body{
     }
 
     .pulsante-upgrade:hover{
-        background-color: white;
-        color: black;
-        border: 0;
+        transform: scale(1.1);
         cursor: pointer;
     }
 
@@ -285,6 +289,44 @@ body{
         width: 300px;
         height: 50px;
         background-color: chartreuse;
+    }
+
+    .col90{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .copertina-album{
+        width: 22%;
+        height: 100%;
+    }
+
+    .nome-album{
+        width: 40%;
+        height: 50%;
+        position: relative;
+        left: 10px;
+    }
+    
+    .brano-nome:hover{
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .cartella-preferiti{
+        position: relative;
+        color: white;
+        right: -20px;
+        width: 30%;
+        height: 100%;
+        opacity: 0.7;
+        font-size: 16pt;
+    }
+
+    .cartella-preferiti i:hover{
+        opacity: 1;
+        cursor: pointer;
     }
 
     .row300{
