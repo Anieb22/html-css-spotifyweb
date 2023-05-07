@@ -413,17 +413,29 @@ body{
         transform: scale(0.5);
     }
 
+    li div img{
+        width: 100%;
+    }
+
+    .download, .user{
+        justify-content: center;
+        border: 0;
+    }
+
+    #playlist, #testo-home, #testo-cerca, #testo-libreria, #installa-app, #john-doe{
+        display: none;
+    }
+
+    .playlist{
+        display: none;
+    }
+
     /*MAIN*/
 
     main{
         background-color: #141922;
         width: 100vw;
         height: 100vh;
-    }
-
-    .playlist{
-        display: none;
-    
     }
 
     .container{
