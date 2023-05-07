@@ -328,8 +328,7 @@ body{
 
     .row300{
         width: 50%;
-        height: 50px;
-        background-color: coral;
+        height: 80%;
     }
 
     .player i{
@@ -343,6 +342,17 @@ body{
 
     .volume{
         width: 50%;
+    }
+
+    .comandi-player{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+    .timeline-song{
+        width: 90%;
     }
 
 /*TABLET*/
@@ -467,6 +477,14 @@ body{
     .cartella-preferiti{
         height: 80%;
         flex-direction: column;
+    }
+
+    .comandi-player{
+        width: 90%;
+    }
+
+    .timeline-song{
+        width: 90%;
     }
 
 }
